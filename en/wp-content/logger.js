@@ -4,7 +4,7 @@ function logEvent(event, type, navigation_to = "", raw_query="" ,category = "lan
 	d.event_name = type;
 	d.category_id = navigation_to; 
 	d.queryString = raw_query; 
-	// divolte.signal(event, d); 
+	divolte.signal(event, d); 
 	console.log(d); 
 	if(type=="navigate" || type=="search")
 	{
