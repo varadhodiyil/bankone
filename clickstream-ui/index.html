@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>ClickStream Analysis</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <style>
+    body {
+      padding-top: 54px;
+    }
+
+    @media (min-width: 992px) {
+      body {
+        padding-top: 56px;
+      }
+    }
+
+    .graph {
+      min-height: 400px;
+    }
+
+    .header-grey {
+      background-color: #e7e6e6 !important;
+    }
+
+    .logo {
+      height: 35px;
+    }
+  </style>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark header-grey fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+            <img class="logo" src="/vendor/images/logo_bankone.jpg" />
+        </a>
+      <a class="navbar-brand float-right" style="color:#000" href="#">ClickStream Analytics</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <!-- <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div> -->
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <dir class="row">
+      <h4> Events Popularity</h4>
+      <dir class="col-md-12 graph" id="events"></dir>
+
+    </dir>
+    <dir class="row">
+      <h4> Section Popularity</h4>
+      <dir class="col-md-12 graph" id="section_popularity"></dir>
+
+    </dir>
+    <dir class="row">
+      <div class="col-lg-12">
+        <h4> Popular Searches</h4>
+        <dir class=" graph" id="searches"></dir>
+      </div>
+      <!-- <div class="col-lg-6">
+        <h4> Trending :</h4>
+        <dir class=" graph" id="trending"></dir>
+      </div> -->
+    </dir>
+    <dir class="row">
+      <h4> Visits over time</h4>
+      <dir class="col-md-12 graph" id="timeline"></dir>
+
+    </dir>
+    <!-- <div class="row">
+      <div class="col-md-6">
+        <h4> Business Popularity</h4>
+        <div id="business_map"></div>
+      </div>
+
+      <div class="col-md-6 graph">
+        <h4> User Popularity</h4>
+        <div id="user_map"></div>
+      </div>
+    </div> -->
+    <div class="row">
+      <h4> Navigations</h4>
+      <div class="col-md-12 graph" id="navigations"></div>
+
+    </div>
+    <div class="row">
+      <h4> Visits</h4>
+      <div class="col-md-12 graph" id="visits"></div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h4 class="col-md-6">User Action</h4>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group row">
+                <label for="email" class="control-label col-sm-2">IP Address:</label>
+                <div class="col-sm-10">
+                  <select id="ip" class="form-control" onchange="change_user(this.value)" name="ip">
+                    <option ></option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div id="ip_ev" class="col-md-12">
+              <div class="col-md-12 graph" id ="ip_graph"></div>
+              <div class="col-md-12" >Page View</div>
+              <div class="col-md-12 graph" id ="ip_graph_page"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/popper/popper.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/scripts/index.js"></script>
+
+</body>
+
+</html>

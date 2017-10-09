@@ -1,0 +1,25 @@
+{
+  "namespace": "io.divolte.record",
+  "type": "record",
+  "name": "Schema",
+  "fields": [
+    { "name": "timestamp",  "type": "long" },
+    { "name": "user_id",   "type": ["null", "string"], "default": null },
+    { "name": "sessionId", "type": ["null", "string"], "default": null },
+    { "name": "remoteHost", "type": "string" },
+    { "name": "raw_query",  "type": ["null", "string"], "default": null },
+    { "name": "p_m",   "type": ["null", "string"], "default": null },
+    { "name": "url",  "type": ["null", "string"], "default": null },
+    { "name": "ref_url",  "type": ["null", "string"], "default": null },
+    { "name": "location", "type": ["null", "string"], "default": null },
+    { "name": "userAgentName", "type": ["null", "string"], "default": null },
+    { "name": "page_id",   "type": ["null", "string"], "default": null },
+    { "name": "category_id",   "type": ["null", "string"], "default": null },
+    { "name": "partner_id",   "type": ["null", "string"], "default": null },
+    { "name": "affiliate_id",   "type": ["null", "string"], "default": null },
+    { "name": "suspect",   "type": ["null", "string"], "default": null },
+    { "name": "eventType",  "type": ["null", "string"], "default": null },
+    { "name": "event_name",  "type": ["null", "string"], "default": null },
+    { "name": "version",  "type": "int", "default": 0 }
+  ]
+}

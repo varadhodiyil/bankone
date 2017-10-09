@@ -1,0 +1,505 @@
+{
+  "search": [
+    {
+      "value": 2, 
+      "key": "aa"
+    }, 
+    {
+      "value": 1, 
+      "key": "cc"
+    }, 
+    {
+      "value": 3, 
+      "key": "abc"
+    }, 
+    {
+      "value": 1, 
+      "key": "bb"
+    }
+  ], 
+  "trending": [], 
+  "event_name": {
+    "../term-deposits/index.html": [
+      {
+        "value": 1, 
+        "key": "navigate"
+      }
+    ], 
+    "branches-atms/index.html": [
+      {
+        "value": 2, 
+        "key": "navigate"
+      }
+    ], 
+    "../become-a-customer/index.html": [
+      {
+        "value": 1, 
+        "key": "navigate"
+      }
+    ], 
+    "../credit-cards/index.html": [
+      {
+        "value": 3, 
+        "key": "navigate"
+      }
+    ], 
+    "directors/index.html": [
+      {
+        "value": 2, 
+        "key": "navigate"
+      }
+    ], 
+    "../loans/index.html": [
+      {
+        "value": 1, 
+        "key": "navigate"
+      }
+    ], 
+    "https://bankone.mu/en/": [
+      {
+        "value": 7, 
+        "key": "search"
+      }
+    ], 
+    "your-needs/index.html": [
+      {
+        "value": 1, 
+        "key": "navigate"
+      }
+    ], 
+    "null": [
+      {
+        "value": 89, 
+        "key": null
+      }
+    ], 
+    "our-journey/index.html": [
+      {
+        "value": 1, 
+        "key": "navigate"
+      }
+    ], 
+    "accounts/index.html": [
+      {
+        "value": 27, 
+        "key": "navigate"
+      }
+    ], 
+    "younger-ones/index.html": [
+      {
+        "value": 2, 
+        "key": "navigate"
+      }
+    ], 
+    "../retail_produit/classic-credit-card/index.html": [
+      {
+        "value": 4, 
+        "key": "navigate"
+      }
+    ], 
+    "ebanking/index.html": [
+      {
+        "value": 27, 
+        "key": "navigate"
+      }
+    ], 
+    "https://bankone.mu/corporate/": [
+      {
+        "value": 10, 
+        "key": "navigate"
+      }
+    ], 
+    "term-deposits/index.html": [
+      {
+        "value": 11, 
+        "key": "navigate"
+      }
+    ], 
+    "sme/index.htm": [
+      {
+        "value": 3, 
+        "key": "navigate"
+      }
+    ], 
+    "../accounts/index.html": [
+      {
+        "value": 1, 
+        "key": "navigate"
+      }
+    ], 
+    "https://bankone.mu/international/": [
+      {
+        "value": 2, 
+        "key": "navigate"
+      }
+    ], 
+    "loans/index.html": [
+      {
+        "value": 18, 
+        "key": "navigate"
+      }
+    ], 
+    "prepaid-cards/index.html": [
+      {
+        "value": 26, 
+        "key": "navigate"
+      }
+    ], 
+    "credit-cards/index.html": [
+      {
+        "value": 34, 
+        "key": "navigate"
+      }
+    ]
+  }, 
+  "navigate": [
+    {
+      "value": 1, 
+      "key": "Your needs"
+    }, 
+    {
+      "value": 4, 
+      "key": "\n                                    \n                  \t\t\t\t\t\t\t\t\t\t\t\n                    \t\t\t\t\t\t\t\t\t\t\t                    \t\t\t\t\t\t\t\t\t\t\n                  \t\t\t\t\t\t\t\t\t\t\n                  \t\t\t\t\t\t\t\t\t\t\n                  \t\t\t\t\t\t\t\t\t\t\tClassic Credit Card\n                  \t\t\t\t\t\t\t\t\t\t\tPut yourself in control of your spending with our Visa Classic Credit Card\n                  \t\t\t\t\t\t\t\t\t\t\n                  \t\t\t\t\t\t\t\t\t\tRead more\n                                "
+    }, 
+    {
+      "value": 26, 
+      "key": "Prepaid cards"
+    }, 
+    {
+      "value": 34, 
+      "key": "Credit Cards"
+    }, 
+    {
+      "value": 2, 
+      "key": "Younger Ones"
+    }, 
+    {
+      "value": 10, 
+      "key": "Corporate"
+    }, 
+    {
+      "value": 1, 
+      "key": "Become a customer"
+    }, 
+    {
+      "value": 3, 
+      "key": "Credit cards"
+    }, 
+    {
+      "value": 2, 
+      "key": "Directors"
+    }, 
+    {
+      "value": 11, 
+      "key": "Term Deposits"
+    }, 
+    {
+      "value": 28, 
+      "key": "Accounts"
+    }, 
+    {
+      "value": 1, 
+      "key": "Term deposits"
+    }, 
+    {
+      "value": 2, 
+      "key": "International"
+    }, 
+    {
+      "value": 27, 
+      "key": "eBanking"
+    }, 
+    {
+      "value": 3, 
+      "key": "SME"
+    }, 
+    {
+      "value": 19, 
+      "key": "Loans"
+    }, 
+    {
+      "value": 1, 
+      "key": "Our Journey"
+    }, 
+    {
+      "value": 2, 
+      "key": "Branches And ATM"
+    }
+  ], 
+  "ip_events": {
+    "75.144.24.234": {
+      "events": [
+        {
+          "value": 1, 
+          "key": null
+        }
+      ], 
+      "page_visits": [
+        {
+          "value": 1, 
+          "key": null
+        }
+      ]
+    }, 
+    "49.206.122.102": {
+      "events": [
+        {
+          "value": 34, 
+          "key": null
+        }, 
+        {
+          "value": 20, 
+          "key": "navigate"
+        }, 
+        {
+          "value": 7, 
+          "key": "search"
+        }
+      ], 
+      "page_visits": [
+        {
+          "value": 2, 
+          "key": "branches-atms/index.html"
+        }, 
+        {
+          "value": 34, 
+          "key": null
+        }, 
+        {
+          "value": 7, 
+          "key": "https://bankone.mu/en/"
+        }, 
+        {
+          "value": 2, 
+          "key": "https://bankone.mu/international/"
+        }, 
+        {
+          "value": 3, 
+          "key": "accounts/index.html"
+        }, 
+        {
+          "value": 1, 
+          "key": "younger-ones/index.html"
+        }, 
+        {
+          "value": 2, 
+          "key": "directors/index.html"
+        }, 
+        {
+          "value": 10, 
+          "key": "https://bankone.mu/corporate/"
+        }
+      ]
+    }, 
+    "182.65.188.50": {
+      "events": [
+        {
+          "value": 30, 
+          "key": null
+        }, 
+        {
+          "value": 4, 
+          "key": "navigate"
+        }
+      ], 
+      "page_visits": [
+        {
+          "value": 1, 
+          "key": "your-needs/index.html"
+        }, 
+        {
+          "value": 30, 
+          "key": null
+        }, 
+        {
+          "value": 1, 
+          "key": "../accounts/index.html"
+        }, 
+        {
+          "value": 1, 
+          "key": "accounts/index.html"
+        }, 
+        {
+          "value": 1, 
+          "key": "our-journey/index.html"
+        }
+      ]
+    }, 
+    "183.82.39.75": {
+      "events": [
+        {
+          "value": 3, 
+          "key": null
+        }, 
+        {
+          "value": 1, 
+          "key": "navigate"
+        }
+      ], 
+      "page_visits": [
+        {
+          "value": 3, 
+          "key": null
+        }, 
+        {
+          "value": 1, 
+          "key": "younger-ones/index.html"
+        }
+      ]
+    }, 
+    "183.83.51.175": {
+      "events": [
+        {
+          "value": 9, 
+          "key": null
+        }, 
+        {
+          "value": 6, 
+          "key": "navigate"
+        }
+      ], 
+      "page_visits": [
+        {
+          "value": 9, 
+          "key": null
+        }, 
+        {
+          "value": 1, 
+          "key": "../become-a-customer/index.html"
+        }, 
+        {
+          "value": 3, 
+          "key": "../retail_produit/classic-credit-card/index.html"
+        }, 
+        {
+          "value": 1, 
+          "key": "../credit-cards/index.html"
+        }, 
+        {
+          "value": 1, 
+          "key": "credit-cards/index.html"
+        }
+      ]
+    }, 
+    "24.6.178.245": {
+      "events": [
+        {
+          "value": 12, 
+          "key": null
+        }, 
+        {
+          "value": 146, 
+          "key": "navigate"
+        }
+      ], 
+      "page_visits": [
+        {
+          "value": 1, 
+          "key": "../term-deposits/index.html"
+        }, 
+        {
+          "value": 12, 
+          "key": null
+        }, 
+        {
+          "value": 11, 
+          "key": "term-deposits/index.html"
+        }, 
+        {
+          "value": 23, 
+          "key": "accounts/index.html"
+        }, 
+        {
+          "value": 18, 
+          "key": "loans/index.html"
+        }, 
+        {
+          "value": 1, 
+          "key": "../loans/index.html"
+        }, 
+        {
+          "value": 27, 
+          "key": "ebanking/index.html"
+        }, 
+        {
+          "value": 1, 
+          "key": "../retail_produit/classic-credit-card/index.html"
+        }, 
+        {
+          "value": 3, 
+          "key": "sme/index.htm"
+        }, 
+        {
+          "value": 33, 
+          "key": "credit-cards/index.html"
+        }, 
+        {
+          "value": 2, 
+          "key": "../credit-cards/index.html"
+        }, 
+        {
+          "value": 26, 
+          "key": "prepaid-cards/index.html"
+        }
+      ]
+    }
+  }, 
+  "visits": 273, 
+  "click_events": [
+    [
+      "navigate", 
+      177
+    ]
+  ], 
+  "distinctEvents": [
+    {
+      "value": 89, 
+      "key": "pageView"
+    }, 
+    {
+      "value": 177, 
+      "key": "click"
+    }, 
+    {
+      "value": 7, 
+      "key": "submit"
+    }
+  ], 
+  "visit_timeline": [
+    {
+      "value": 11, 
+      "key": "2017-10-06"
+    }, 
+    {
+      "value": 262, 
+      "key": "2017-10-05"
+    }
+  ], 
+  "average_visit": [
+    {
+      "value": 158, 
+      "key": "24.6.178.245"
+    }, 
+    {
+      "value": 61, 
+      "key": "49.206.122.102"
+    }, 
+    {
+      "value": 34, 
+      "key": "182.65.188.50"
+    }, 
+    {
+      "value": 4, 
+      "key": "183.82.39.75"
+    }, 
+    {
+      "value": 15, 
+      "key": "183.83.51.175"
+    }, 
+    {
+      "value": 1, 
+      "key": "75.144.24.234"
+    }
+  ], 
+  "unique_visits": 6
+}
