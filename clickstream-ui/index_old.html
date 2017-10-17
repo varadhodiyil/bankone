@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>ClickStream Analysis</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <style>
+    body {
+      padding-top: 84px;
+      background: #ffffff;
+    }
+
+    @media (min-width: 992px) {
+      body {
+        padding-top: 84px;
+      }
+    }
+    .row{
+      margin-top: 21px;
+      padding-bottom: 21px;
+    }
+    .graph {
+      min-height: 400px;
+    }
+
+    .header-grey {
+      background-color: #e7e6e6 !important;
+    }
+
+    .logo {
+      height: 35px;
+    }
+    .container{
+      max-width: 100%;
+    }
+    .navbar-nav li {
+  float: none;  /* Cancel default li float: left */
+  width: 139px;
+  height: 56px;
+  background: #ffffff;
+}
+
+  </style>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+</head>
+
+<body>
+  <!-- Header -->
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark header-grey fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+            <img class="logo" src="/vendor/images/logo_bankone.jpg" />
+        </a>
+      <a class="navbar-brand float-right" style="color:#000" href="#">ClickStream Analytics</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+  </nav>
+  <!-- END Header -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3 col-lg-2">
+        <!-- <nav class="navbar navbar-inverse navbar-fixed-side">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Link2</a></li>
+            <li><a href="#">Link3</a></li>
+            <li><a href="#">Link4</a></li>
+            <li><a href="#">Link5</a></li>
+           </ul>
+        </nav> -->
+        <div class="col-md-12">
+            <h4 class="col-md-6 text-center">User Action</h4>
+            <div class="form-group row">
+                <label for="email" class="control-label col-sm-2">User </label>
+                <div class="col-sm-10">
+                  <select id="ip" class="form-control" onchange="change_user(this.value)" name="ip">
+                    <option ></option>
+                  </select>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-sm-9 col-lg-10">
+        <!-- your page content -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <h4 class="text-center"> Events Popularity</h4>
+              <div class="col-md-12 graph" id="events"></div>
+            </div>
+            <div class="col-md-4">
+              <h4 class="text-center"> Section Popularity</h4>
+              <div class="col-md-12 graph" id="section_popularity"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="col-lg-12">
+                <h4 class="text-center"> Popular Searches</h4>
+                <div class=" graph" id="searches"></div>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <h4 class="text-center"> Visits over time</h4>
+              <div class="col-md-12 graph" id="timeline"></div>
+          
+            </div>
+          </div>
+      
+          <div class="row">
+            <h4 class="text-center col-lg-12"> Navigations</h4>
+            <div class="col-md-12 graph" id="navigations"></div>
+      
+          </div>
+          <div class="row">
+            <h4 class="text-center col-lg-12"> Visits</h4>
+            <div class="col-md-12 graph" id="visits"></div>
+      
+          </div>
+      
+          <div class="row">
+            
+          </div>
+          <div class="row" id="ip_ev">
+              <div class="col-md-6">
+                <h4 class="text-center">Events</h4>
+                <div class="graph" id ="ip_graph"></div>
+              </div>
+              <div class="col-md-6">
+                  <h4 class="text-center">Page Visits</h4>
+                <div  class="graph" id ="ip_graph_page"></div>
+              </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Content -->
+  
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/popper/popper.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/scripts/index.js"></script>
+
+</body>
+
+</html>
