@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+   <!-- START Head -->
+   <head>
+      <!-- START META SECTION -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Product Analysis</title>
+      <meta name="author" content="pampersdry.info">
+      <meta name="description" content="Adminre is a clean and flat backend and frontend theme build with twitter bootstrap 3.1.1">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <!--/ END META SECTION -->
+      <!-- START STYLESHEETS -->
+      <!-- Plugins stylesheet : optional -->
+      
+      <!--/ Plugins stylesheet -->
+      <!-- Application stylesheet : mandatory -->
+      <link rel="stylesheet" href="{% static '/bootstrap/css/bootstrap.min.css' %}">
+      <link rel="stylesheet" href="{% static '/backend.min.css' %}">
+      <link rel="stylesheet" href="{% static '/uielement.min.css' %}">
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <!--/ Application stylesheet -->
+      <!-- END STYLESHEETS -->
+      <!-- START JAVASCRIPT SECTION - Load only modernizr script here -->
+      <!--/ END JAVASCRIPT SECTION -->
+      <style type="text/css">
+         .logo{
+         width: 217px;
+         background-repeat: no-repeat;
+         background-position: 0 8px;
+         background-size: 32px 32px;
+         height: 62px;
+         }
+         .graph {
+         min-height: 400px;
+         }
+      </style>
+   </head>
+   <!--/ END Head -->
+   <!-- START Body -->
+   <body>
+      <!-- START Template Header -->
+      <header id="header" class="navbar navbar-fixed-top">
+         <!-- START navbar header -->
+         <div class="navbar-header">
+            <!-- Brand -->
+            <a class="navbar-brand" href="javascript:void(0);">
+               <!-- <span class="logo-figure"></span> -->
+               <img src="{% static '/images/logo_bankone.jpg' %}" class="logo"/>
+            </a>
+            <!--/ Brand -->
+         </div>
+         <!--/ END navbar header -->
+         <!-- START Toolbar -->
+         <div class="navbar-toolbar clearfix">
+            <!-- START Left nav -->
+            <!--/ END Left nav -->
+            <!-- START navbar form -->
+            <div class="navbar-form navbar-left dropdown" id="dropdown-form">
+               <form action="" role="search">
+                  <div class="has-icon">
+                     <input type="text" class="form-control" placeholder="Search application...">
+                     <i class="ico-search form-control-icon"></i>
+                  </div>
+               </form>
+            </div>
+            <!-- START navbar form -->
+            <!-- START Right nav -->
+            <ul class="nav navbar-nav navbar-right">
+               <!-- Profile dropdown -->
+               <li class="dropdown profile">
+                  <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                  <span class="meta">
+                  <span class="avatar"><img src="{% static '/images/avatar.png' %}" class="img-circle" alt="" /></span>
+                  <span class="text hidden-xs hidden-sm pl5">Bank One</span>
+                  </span>
+                  </a>
+               </li>
+               <!--/ Profile dropdown -->
+               <!-- Offcanvas right This menu will take position at the top of template header (mobile only). Make sure that only #header have the `position: relative`, or it may cause unwanted behavior -->
+               <li class="navbar-main">
+                  <a href="javascript:void(0);" data-toggle="offcanvas" data-direction="rtl" rel="tooltip" title="Feed / contact sidebar">
+                  <span class="meta">
+                  <span class="icon"><i class="ico-users3"></i></span>
+                  </span>
+                  </a>
+               </li>
+               <!--/ Offcanvas right -->
+            </ul>
+            <!--/ END Right nav -->
+            <!-- START nav collapse -->
+            <!--/ END nav collapse -->
+         </div>
+         <!--/ END Toolbar -->
+      </header>
+      <!--/ END Template Header -->
+      <!-- START Template Sidebar (Left) -->
+      <aside class="sidebar sidebar-left sidebar-menu">
+         <!-- START Sidebar Content -->
+         <section class="content slimscroll">
+            <h5 class="heading">Main Menu</h5>
+            <!-- START Template Navigation/Menu -->
+            <ul class="topmenu" data-toggle="menu">
+               <li class="active open">
+                  <a href="javascript:void(0);" data-target="#dashboard" data-toggle="submenu" data-parent=".topmenu">
+                  <span class="figure"><i class="ico-home2"></i></span>
+                  <span class="text">Dashboard</span>
+                  <span class="arrow"></span>
+                  </a>
+                  <!-- START 2nd Level Menu -->
+                  <ul id="dashboard" class="submenu collapse in">
+                     <li class="submenu-header ellipsis">Dashboard</li>
+                  </ul>
+                  <!--/ END 2nd Level Menu -->
+               </li>
+            </ul>
+            <!--/ END Template Navigation/Menu -->
+            <!--/ Summary -->
+            <!--/ END Sidebar summary -->
+         </section>
+         <!--/ END Sidebar Container -->
+      </aside>
+      <!--/ END Template Sidebar (Left) -->
+      <!-- START Template Main -->
+      <section id="main" role="main">
+         <!-- START Template Container -->
+         <div class="container-fluid">
+            <!-- Page Header -->
+            <!-- Page Header -->
+            <div class="row">
+               <!-- START Left Side -->
+               <!--/ END Left Side -->
+               <!-- START Right Side -->
+               <!--/ END Right Side -->
+               <div class="col-lg-12">
+                  <!-- your page content -->
+                  <div class="row">
+                     <div class="col-md-8">
+                        <h4 class="text-center"> Events Popularity</h4>
+                        <div class="col-md-12 graph" id="events"></div>
+                     </div>
+                     <div class="col-md-4">
+                        <h4 class="text-center"> Section Popularity</h4>
+                        <div class="col-md-12 graph" id="section_popularity"></div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-4">
+                        <div class="col-lg-12">
+                           <h4 class="text-center"> Popular Searches</h4>
+                           <div class=" graph" id="searches"></div>
+                        </div>
+                     </div>
+                     <div class="col-lg-8">
+                        <h4 class="text-center"> Visits over time</h4>
+                        <div class="col-md-12 graph" id="timeline"></div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <h4 class="text-center col-lg-12"> Navigations</h4>
+                     <div class="col-md-12 graph" id="navigations"></div>
+                  </div>
+                  <div class="row">
+                     <h4 class="text-center col-lg-12"> Visits</h4>
+                     <div class="col-md-12 graph" id="visits"></div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <h4 class=" text-center">User Action</h4>
+                        <div class="form-group row">
+                           <label for="email" class="control-label col-sm-2">User </label>
+                           <div class="col-sm-10">
+                              <select id="ip" class="form-control" onchange="change_user(this.value)" name="ip">
+                                 <option ></option>
+                              </select>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row" id="ip_ev">
+                     <div class="col-md-6">
+                        <h4 class="text-center">Events</h4>
+                        <div class="graph" id ="ip_graph"></div>
+                     </div>
+                     <div class="col-md-6">
+                        <h4 class="text-center">Page Visits</h4>
+                        <div  class="graph" id ="ip_graph_page"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--/ END Template Container -->
+         <!-- START To Top Scroller -->
+         <a href="#" class="totop animation" data-toggle="waypoints totop" data-marker="#main" data-showanim="bounceIn" data-hideanim="bounceOut" data-offset="-50%"><i class="ico-angle-up"></i></a>
+         <!--/ END To Top Scroller -->
+      </section>
+      <!--/ END Template Main -->
+     
+      <script src="{% static '/jquery/jquery.min.js' %}"></script>
+      <script src="{% static '/popper/popper.min.js' %}"></script>
+      <script src="{% static '/bootstrap/js/bootstrap.min.js' %}"></script>
+      <script src="{% static '/scripts/index.js' %}"></script>
+   </body>
+   <!--/ END Body -->
+</html>
