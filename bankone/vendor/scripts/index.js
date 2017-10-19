@@ -2,7 +2,7 @@ let user_data_ip = [];
 google.charts.load('current', { 'packages': ['corechart', 'scatter', 'line', 'bar'] });
 google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
-  $.getJSON(location.toLocaleString()+"api/", function (resp) {
+  $.getJSON(location.toLocaleString()+"api/data/", function (resp) {
     var user_data = new google.visualization.DataTable();
     user_data.addColumn('string', 'Event Name');
     user_data.addColumn('number', 'count');
